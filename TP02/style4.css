@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+	
+div{
+	transition: 1s;
+}
+.android {
+	height: 404px;
+	width: 334px;
+	margin: 100px auto;
+	position: relative;
+}
+.header{
+	width: 220px;
+	height: 100px;
+	background: blue;
+	margin: 0 auto;
+	border-radius: 110px 110px 0 0;
+	position: relative;
+	top: 30px;
+	transform-origin: left bottom;
+}
+.android div[class^=eye]{
+	width: 20px;
+	height: 20px;
+	background-color: #FFFFFF;
+	position: absolute;
+	border-radius: 10px;
+}
+.android .eyel{
+	left: 60px;
+	top: 50px;
+}
+.android .eyer{
+	left: 140px;
+	top: 50px;
+}
+.android div[class*=top]{
+	width: 6px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 3px;
+	position: absolute;
+}
+
+.android .header:hover{
+	transform: rotate(-20deg);
+}
+.center{
+	width: 220px;
+	height: 250px;
+	background-color: blue;
+	position: relative;
+	top: 40px;
+	left: 57px;
+	border-radius: 0 0 30px 30px;
+}
+.center div{
+	width: 50px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	border-radius: 25px;
+}
+.center .arml{
+	left: -56px;
+	top: 0;
+	transform-origin: right top;
+	transition: 1s;
+}
+.center .arml:hover{
+	transform: rotate(20deg);
+}
+
+.center .armr{
+	left: 226px;
+	top: 0;
+	transform-origin: left top;
+	transition: 1s;
+}
+.center .armr:hover{
+	transform: rotate(-20deg);
+}
+.center .footl{
+	left: 45px;
+	top: 180px;
+}
+.center .footr{
+	left: 125px;
+	top: 180px;
+}
+.center .footl:hover{
+    transform: rotate(20deg);
+}
+.center .footr:hover{
+    transform: rotate(-20deg)
+}

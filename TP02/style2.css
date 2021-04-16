@@ -1,0 +1,20 @@
+div { background-color: #0000cd}
+section {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 95%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+section div{
+    width: 90px;
+    height: 90px;
+    display: inline-flex;
+    gap: 30px;
+    flex-wrap: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+    font-size: 48px;
+}

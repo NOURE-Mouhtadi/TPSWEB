@@ -1,0 +1,32 @@
+.carre1{
+    position: fixed;
+    top: 70px;
+    left: 70px;
+    width: 180px;
+    height: 200px;
+    background: #ffff00
+}
+.carre2{
+    position: fixed;
+    top: 70px;
+    right: 70px;
+    width: 180px;
+    height: 200px;
+    background: #0000cd
+}
+.carre3{
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    width: 180px;
+    height: 200px;
+    background: #ff0000
+}
+.carre4{
+    position: fixed;
+    bottom: 70px;
+    left: 70px;
+    width: 180px;
+    height: 200px;
+    background: #008000
+}
